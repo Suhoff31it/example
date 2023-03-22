@@ -1,4 +1,6 @@
-﻿int numbeA = 31;
-int numbeB = 5;
+﻿int numbeA = new Random().Next(1, 10);
+Console.WriteLine(numbeA);
+int numbeB = new Random().Next(1, 10);
+Console.WriteLine(numbeB);
 int result = numbeA + numbeB;
 Console.WriteLine(result);
